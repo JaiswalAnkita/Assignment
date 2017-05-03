@@ -1,4 +1,6 @@
-student = {"Ram" => 1, "Sk" => 4}
-student.each do | name, rollno |
-	puts "#{name}: #{rollno}"
-end	
+student = { "82" => "hjd",
+           "55" => "dsj",
+           "773" => "wy"
+         }
+
+puts student["82"]
