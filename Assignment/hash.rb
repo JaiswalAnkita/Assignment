@@ -1,6 +1,4 @@
-student = { "82" => "hjd",
-           "55" => "dsj",
-           "773" => "wy"
-         }
-
-puts student["82"]
+puts "Enter Your roll no"
+username = gets.chomp
+student = {"1" => {"name" => "Ankita", "course" => "training"}}
+puts " #{student}"
